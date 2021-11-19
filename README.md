@@ -19,7 +19,7 @@
 
 * Basic `Banner` is added as well. 
 
-* [Click Here for Live Link / Website - Client Side - (Firebase)](https://  .web.app/)
+* [Click Here for Live Link / Website - Client Side - (Firebase)](https://toy-hub.web.app/)
 
 
 ### Technology Used
@@ -33,7 +33,3 @@
 * React Bootstrap
 * JavaScript (ES6)
 * Fontawesome 6 Beta
-
-* Screenshot of Live Site -
-
-![alt text](public/demo.png)

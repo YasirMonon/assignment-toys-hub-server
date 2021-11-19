@@ -147,20 +147,6 @@ async function run() {
       const result = await usersCollection.updateOne(filter, updateDoc)
       res.json(result);
 
-      // const requester = req.decodedEmail;
-      // if (requester) {
-      //   const requesterAccount = await usersCollection.findOne({ email: requester });
-      //   if (requesterAccount.role === 'admin') {
-      //     const filter = { email: user.email };
-      //     const updateDoc = { $set: { role: 'admin' } };
-      //     const result = await usersCollection.updateOne(filter, updateDoc);
-      //     res.json(result);
-      //   }
-      // }
-      // else {
-      //   res.status(403).json({ message: 'you do not have access to make admin' })
-      // }
-
     })
 
 
@@ -173,7 +159,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", async (req, res) => {
-  res.send(`<h2>App running on port ${PORT}</h2>`);
+  res.send(`<h2>App , made by Yasir ,running on port ${PORT}</h2>`);
 });
 
 app.listen(PORT, () => console.log(`listening to the port ${PORT}`));
